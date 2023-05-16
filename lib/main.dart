@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'pages/connexion/connexion_page.dart';
-//import 'pages/accueil/accueil_page.dart';
-import 'pages/detail/activity_page.dart';
+import 'pages/accueil/accueil_page.dart';
+//import 'pages/detail/activity_page.dart';
 
 
 
@@ -17,8 +17,8 @@ class CisApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       //home: ConnexionPage(),
-      //home: AccueilPage(),
-      home: ActivityPage(),
+      home: AccueilPage(),
+      //home: ActivityPage(),
 
 
     );
